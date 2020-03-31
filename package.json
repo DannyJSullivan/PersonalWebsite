@@ -34,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.28",
     "react-router-dom": "^5.1.2"
   }
 }

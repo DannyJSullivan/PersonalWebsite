@@ -13,6 +13,16 @@
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B0DDFF;
+  text-decoration: underline;
+}
+
 .code-header {
   background-color: white;
   min-height: 100vh;
@@ -105,13 +115,44 @@ h3 {
   text-align: justify;
   text-align: left;
   margin-left: 5%;
+  margin-bottom: 0%;
+}
+
+.messageBox {
+  height: 200px;
+  width: 500px;
+  margin-top: 1%;
+}
+
+.contactBox {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.contactForm {
+  text-align: justify;
+  text-align: left;
+  margin-left: 5%;
+}
+
+img {
+  float: left;
+  margin-left: 0%;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+label {
+  margin-top: 5%;
+  margin-bottom: 500%;
 }
 
 #text {
   font-size: 20px;
   text-align: justify;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 14%;
+  margin-right: 10%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -120,8 +161,59 @@ h3 {
   font-size: 15px;
   text-align: justify;
   text-align: left;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-top: 1%;
   margin-bottom: 1%;
   font-style: italic;
+}
+
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #586E80;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #325E80;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #B0DDFF;
+  color: #325E80;
+}
+
+.row
+{
+  display:inline-block;
+  align-items: center;
+}
+
+.column {
+  display:inline-block;
+  align-items: center;
+  margin: 5%;
+  background: #B0DDFF;
+  padding: 5px;
+  vertical-align: middle;
+  horiz-align: center;
+}
+
+.ulCol {
+  float: left;
+}
+
+.profilePhoto {
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
 }
