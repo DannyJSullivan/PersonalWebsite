@@ -105,6 +105,7 @@ a:hover {
 
 h2 {
   padding: 1px 1px;
+  margin-bottom: 0%;
 }
 
 html {
@@ -216,4 +217,32 @@ input[type=submit]:hover {
   border-radius: 50%;
   background: white;
   padding: 5px;
+}
+
+.homePageText {
+  font-size: calc(5px + 2vmin);
+}
+
+h5 {
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+#codeText {
+  font-size: 20px;
+  text-align: justify;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#githubLogo {
+  float: left;
+  height: 50px;
+  width: 50px;
+  justify-items: center;
+  margin-right: 1%;
 }

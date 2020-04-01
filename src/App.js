@@ -7,6 +7,7 @@ import desk from './ta2018.jpg';
 import me from './pic.jpg';
 // import wpi from './wpi_white.png';
 import wpi from './wpi_white2.png';
+import gitBlue from './github_blue.png';
 
 class Website extends Component {
     render() {
@@ -26,26 +27,58 @@ class Website extends Component {
                     <img className={"profilePhoto"} src={me} alt={"Photo of me, 2020."} height={"300"} width={"300"}></img>
 
                     <h2>
-                        Welcome to my website!</h2>
-                    <p>
-                        <a href={"#code"}>See some examples of my code.</a>
-                    </p>
-                    <p>
-                        <a href={"#experience"}>Check out my background and industry experience.</a>
-                    </p>
-                    <p>
-                        <a href={"#about"}>Learn about me.</a>
-                    </p>
-                    <p>
-                        <a href={"#contact"}>Contact me!</a>
-                    </p>
+                        Danny Sullivan
+                    </h2>
+                    <h3>
+                        Worcester Polytechnic Institute, 2020
+                    </h3>
+                    <h4>
+                        Bachelor's of Science, Computer Science
+                    </h4>
+
+                    <div className={"homePageText"}>
+                        <p>
+                            <a href={"#code"}>See some examples of my code.</a>
+                        </p>
+                        <p>
+                            <a href={"#experience"}>Check out my background and industry experience.</a>
+                        </p>
+                        <p>
+                            <a href={"#about"}>Learn about me.</a>
+                        </p>
+                        <p>
+                            <a href={"#contact"}>Contact me!</a>
+                        </p>
+                    </div>
+
                 </header>
 
                 <div className={"code"} id={"code"}>
                     <header className="code-header">
                         <h2 className={"spacing"}>
-                            Code
+                            Coding Projects
                         </h2>
+                        <h5>
+                            <img id={"githubLogo"} src={gitBlue} alt={"GitHub logo"} ></img>
+                            Brigham and Women's Hospital Kiosk
+                        </h5>
+                        <p id={"codeText"}>
+                            My sophomore year, I took a software engineering course, which was by far the
+                            most beneficial course I have ever taken. We worked in teams of ten to compete
+                            weekly and see who could make the best application. We applied agile development
+                            methodologies and software design patterns in Java to create an indoor pathfinding
+                            application, map builder, and integrated service modules for Brigham & Women's main
+                            hospital campus. To create this application, we gathered software requirements through
+                            surveys, interviews, and brainstorming, as well as created user stories, scenarios,
+                            and storyboards.
+                        </p>
+                        <p id={"codeText"}>
+                            In my group, I worked as both a software engineer and test engineer. I was responsible
+                            for creating user classes, the technology ticket API, integrating other team's APIs,
+                            kiosk timeout feature, and the live clock. I also assisted in creating the UI, login
+                            handler, pathfinding, node and edge translation, and Epic integration. As a test engineer,
+                            I wrote the unit tests for the UI, database, and other functionality through the app.
+                        </p>
                     </header>
                 </div>
 
@@ -92,7 +125,7 @@ class Website extends Component {
                                         Algorithms (Python)
                                     </ul>
                                     <ul>
-                                        Tools and Techniques in Network Security
+                                        Network Security (Python)
                                     </ul>
                                     <ul>
                                         Cryptography and Communication Security
@@ -104,7 +137,7 @@ class Website extends Component {
                                         Artificial Intelligence (Python)
                                     </ul>
                                     <ul>
-                                        Machine Learning
+                                        Machine Learning (Python, R)
                                     </ul>
                                 </div>
                             </div>
