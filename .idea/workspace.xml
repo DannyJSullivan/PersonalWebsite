@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b78b85-728d-42d8-b1ae-6cb563c07476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/addressparser/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/base64/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/message-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/relaxed-body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/sign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/json-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mail-composer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/mail-message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/mime-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/last-newline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/qp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/le-unix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/le-windows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/shared/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/data-stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/pool-resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/xoauth2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/postinstall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nestlab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ob-logo-reverse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/onebeacon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PersonalWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PersonalWebsite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pages/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pages/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +67,7 @@
       <workItem from="1587409041203" duration="81000" />
       <workItem from="1587409247519" duration="764000" />
       <workItem from="1587488095860" duration="2245000" />
-      <workItem from="1589465801663" duration="5988000" />
+      <workItem from="1589465801663" duration="6078000" />
     </task>
     <servers />
   </component>
